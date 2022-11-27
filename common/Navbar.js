@@ -6,14 +6,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      {/* <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-      <Link href="/courses">Courses</Link>
-      <Link href="/facilities">Facilities</Link>
-      <Link href="/contact">Contact</Link> */}
 
-      <nav className="navbar navbar-expand-lg navbar-dark bg-success">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div className="container">
           <a className="navbar-brand" href="/">
             ABC School
           </a>
@@ -34,28 +29,38 @@ const Navbar = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" href="/">
+                <Link className="nav-link text-white fw-bold" href="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/about">
+                <Link className="nav-link text-white fw-bold" href="/about">
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/courses">
+                <Link className="nav-link text-white fw-bold" href="/courses">
                   Courses
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/facilities">
+                <Link className="nav-link text-white fw-bold" href="/facilities">
                   Facilities
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/contact">
+                <Link className="nav-link text-white fw-bold" href="/contact">
                   Contact
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white fw-bold" href="/batches">
+                  Batches
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white fw-bold" href="/products">
+                  Products
                 </Link>
               </li>
             </ul>
