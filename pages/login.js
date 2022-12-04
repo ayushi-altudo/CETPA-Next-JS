@@ -6,7 +6,7 @@ const Login = () => {
     <div className="container">
       <form className="w-50 m-auto mt-5 mb-5 p-3 border border-info rounded">
         <div className="mb-3 mt-3">
-          <label for="email">Email:</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             className="form-control"
@@ -16,7 +16,7 @@ const Login = () => {
           />
         </div>
         <div className="mb-3">
-          <label for="pwd">Password:</label>
+          <label htmlFor="pwd">Password:</label>
           <input
             type="password"
             className="form-control"
@@ -26,16 +26,6 @@ const Login = () => {
           />
         </div>
 
-        <div className="form-check mb-3">
-          <label className="form-check-label">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              name="remember"
-            />
-            Remember me
-          </label>
-        </div>
         <button type="submit" className="btn btn-primary ps-5 pe-5">
           Sign In
         </button>
